@@ -16,11 +16,18 @@ body {
 .quad2,
 .quad3,
 .quad4 {
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    margin-bottom: 0;
+}
+
+.quad1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
 }
 
 .header {
-    background-color: #1f2937;
+    /* background-color: #1f2937; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +50,7 @@ body {
 }
 
 .hero {
-    background-color: #1f2937;
+    /* background-color: #1f2937; */
     display: flex;
     
     gap: 30px;
@@ -88,4 +95,18 @@ body {
     border-radius: 8px;
     border: none;
     margin-top: 10px;
+}
+
+.quad2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quad2 h2 {
+
+}
+
+.info {
+
 }
