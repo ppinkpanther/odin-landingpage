@@ -5,6 +5,8 @@
     margin: 0;
 }
 
-.body {
+body {
     display: flex;
+    flex-direction: column;
+    
 }
