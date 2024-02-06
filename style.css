@@ -43,5 +43,49 @@ body {
 }
 
 .hero {
-    background-color: red;
+    background-color: #1f2937;
+    display: flex;
+    
+    gap: 30px;
+    padding: 50px 100px;
+
+}
+
+.placeholder {
+    flex-basis: 400px;
+    background-color: #4e4e4e;
+    height: 175px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    flex-shrink: 0;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.signup h2 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.signup p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.signup button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
 }
