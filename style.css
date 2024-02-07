@@ -161,5 +161,18 @@ body {
 }
 
 .quad4 {
+    padding: 100px 150px;
+}
+
+.message {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message {
     
 }
