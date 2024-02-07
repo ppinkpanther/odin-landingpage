@@ -117,8 +117,8 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    flex-basis: 175px;
-    width: 175px;
+    /* flex-basis: 175px; */
+    /* width: 175px; */
 }
 
 .container-image {
