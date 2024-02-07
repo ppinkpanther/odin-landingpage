@@ -173,6 +173,18 @@ body {
     align-items: center;
 }
 
-.message {
-    
+.right h3,
+.right p,
+.message button {
+    color: #f9faf8;
+
+}
+
+.message button {
+    background-color: #3882f6;
+    border: #f9faf8 solid 2px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 15px;
+    font-weight: bold;
 }
