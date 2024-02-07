@@ -99,6 +99,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 50px 300px;
 }
 
 .quad2 h2 {
@@ -106,11 +107,12 @@ body {
     font-size: 36px;
     font-weight: bolder;
     align-self: center;
+    margin-bottom: 30px;
 }
 
 .info {
     display: flex;
-    padding: 10px 300px;
+    /* padding: 10px 300px; */
     gap: 40px;
 }
 
@@ -137,4 +139,14 @@ body {
 
 .quad3 {
     display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 200px;
 }
+
+.quad3 h2{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}   
