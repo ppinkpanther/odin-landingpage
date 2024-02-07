@@ -140,6 +140,7 @@ body {
 .quad3 {
     display: flex;
     flex-direction: column;
+    gap: 20px;
     background-color: #e5e7eb;
     padding: 100px 200px;
 }
@@ -150,3 +151,11 @@ body {
     font-style: italic;
     font-weight: 100;
 }   
+
+.quad3 p {
+    color: #1f2937;
+    font-size: 25px;
+    font-weight: bolder;
+    align-self: flex-end;
+
+}
